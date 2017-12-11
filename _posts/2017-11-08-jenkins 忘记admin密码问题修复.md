@@ -1,14 +1,14 @@
-    ---
-    layout: post
-    title:  "2017-11-08-jenkins 忘记admin密码问题修复"
-    date:   2017-11-08 15:21:02 +0800
-    categories: 持續集成
-    tags: 持續集成 CI 配置 jenkins
-    author: Sii
-    ---
-    
-    * content
-    {:toc}
+---
+layout: post
+title:  "2017-11-08-jenkins 忘记admin密码问题修复"
+date:   2017-11-08 15:21:02 +0800
+categories: 持續集成
+tags: 持續集成 CI 配置 jenkins
+author: Sii
+---
+ 
+* content
+{:toc}
 
 
 ### 问题表现
