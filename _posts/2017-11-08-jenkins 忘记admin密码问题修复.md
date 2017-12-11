@@ -16,8 +16,7 @@ author: Sii
 * `提示信息`： If you are a system administrator and suspect this to be a configuration problem, see the server console output for more details.
 
 ### 解决方案
-#### 找回密码
-1. 去到本地用户配置路径，查看配置文件:
+1.去到本地用户配置路径，查看配置文件:
  ```
  C:\Users\[当前电脑登录用户名]\.jenkins\users\admin
  ```
