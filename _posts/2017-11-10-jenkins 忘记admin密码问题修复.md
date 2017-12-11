@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "jenkins 忘记admin密码问题修复"
-date:   2017-11-08 15:21:02 +0800
+date:   2017-11-10 15:21:02 +0800
 categories: 持續集成
 tags: 持續集成 CI 配置 jenkins
 author: Sii
@@ -11,19 +11,23 @@ author: Sii
 {:toc}
 
 
-### 问题表现
+## 问题表现
 * `errMsg` : 登录信息无效。请重试。 
 * `提示信息`： If you are a system administrator and suspect this to be a configuration problem, see the server console output for more details.
 
-### 解决方案
+
+
+
+
+## 解决方案
 1.去到本地用户配置路径，查看配置文件:
  ```
  C:\Users\[当前电脑登录用户名]\.jenkins\users\admin
- ```
- 
+ ``` 
 对应的`<fullName>` 节点value即为当前登录用户名，默认为`admin`
 
 对应的 `<passwordHash>` 节点value截取`#jbcrypt:`之后部分即为加密后的密码，密码无法解密，但是可以校验
+
 
 2.去到存储admin密码路径查看密码铭文，路径为：
 ```
@@ -84,9 +88,9 @@ jbcrypt对应的maven依赖:
 
 至此，顺利解决。
 
-### 参考文献
+## 参考文献
 * [jBCrypt官方网站](http://www.mindrot.org/projects/jBCrypt/)
 
-{% include comments.html %}
+
 
 

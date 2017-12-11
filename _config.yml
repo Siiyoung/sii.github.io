@@ -23,13 +23,13 @@ email: youqing_resume@163.com
 #linkedIn_username:
 dribbble_username:
 
-description_footer: 记录自己走过的测试路，不负韶光！
+description_footer: 生活不止眼前的苟且，还有远方的田野。
 
 # comments
 # two ways to comment, only choose one, and use your own short name
 # 两种评论插件，选一个就好了，使用自己的 short_name
-duoshuo_shortname: #hygblog
-disqus_shortname: gaohaoyang
+#duoshuo_shortname: #hygblog
+disqus_shortname: Siiyoung Wang
 
 # statistic analysis 统计代码
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
